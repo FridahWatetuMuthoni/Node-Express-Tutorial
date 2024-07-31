@@ -1,0 +1,24 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "1. Node runs on a server and not in the browser\r 2. The console is the terminal window\r 3. We have the global object instead of the window object\r 4. It has CommonJS modules that help us iteract with the file system, os etc\r 5. It misses some JS APIS like fetch => you can use axios",
+  "main": "intro.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
